@@ -30,7 +30,8 @@ class StopAfterLayer(Script):
                     "label": "Comment out instead of removing",
                     "description": "Check to comment out the gcode instead of removing it.",
                     "type": "bool",
-                    "default_value": false
+                    "default_value": false,
+                    "enabled": "enabled"
                 },
                 "layer_number":
                 {
