@@ -33,3 +33,23 @@ M300 S523 P100, M300 S660 P100, M300 S784 P100, M300 S523 P100, M300 S660 P100, 
 ### Insert Mesh Print Size
 
 Replaces all occurrences `%MINX%` `%MINY%` `%MINZ%` `%MAXX%` `%%MAXY%` `%%MAXZ%` with the actual size of the mesh in the GCODE
+
+## More scripts
+
+### Klipper Preprocessor
+
+If using [Klipper](https://www.klipper3d.org/) add this script to your Cura installation:
+https://github.com/pedrolamas/klipper-preprocessor
+
+Install into the `scripts`
+
+```sh
+git clone https://github.com/pedrolamas/klipper-preprocessor externalRepos/klipper-preprocessor
+ln -s externalRepos/klipper-preprocessor/KlipperPreprocessor.py
+```
+
+For windows change the last command to:
+
+```sh
+mklink KlipperPreprocessor.py externalRepos\klipper-preprocessor\KlipperPreprocessor.py
+```
