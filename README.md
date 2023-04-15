@@ -12,9 +12,9 @@ The scripts should be available in the _Post Processing_ plugin, in Cura: _Exten
 
 ## Scripts
 
-### Insert g-code at layer
+### Insert g-code
 
-Inserts g-code at the specifed layers (use comma to separate multiple layers).
+Inserts g-code at the specifed layers (use comma to separate multiple layers), ranges may be specified as from-to Start and end may be left out. Example: `-4, 10-12, 20, 22, 45-`
 Use comma to separate multiple commands
 
 ### Stop After Layer
